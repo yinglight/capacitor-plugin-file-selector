@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="chooser_document_app_name">文件选择器</string>
+    <string name="confirm">确定</string>
+    <string name="menu_item_search">搜索</string>
+    <string name="menu_item_sort">排序</string>
+    <string name="menu_item_sort_name">名称</string>
+    <string name="menu_item_sort_size">大小</string>
+    <string name="menu_item_sort_date">时间</string>
+    <string name="menu_item_sort_type">类型</string>
+    <string name="operation_cancel">取消</string>
+    <string name="chooser_document_cancel">取消</string>
+    <string name="no_file">没有文件</string>
+    <string name="tab_audiovisual">影音</string>
+    <string name="tab_picture">图片</string>
+    <string name="tab_document">文档</string>
+    <string name="tab_other">其它</string>
+    <string name="file_info_location">位置:</string>
+    <string name="file_info_size">大小:</string>
+    <string name="file_info_modified">时间:</string>
+    <string name="no">否</string>
+    <string name="file_size">%d 字节</string>
+    <string name="operation_selectall">全选</string>
+    <string name="operation_cancel_selectall">取消全选</string>
+    <string name="string_count">%1$s/%2$s</string>
+    <string name="Playback_failed">播放失败</string>
+    <string name="update_name">刷新</string>
+    <item name="item_image_key" type="id" />
+
+</resources>

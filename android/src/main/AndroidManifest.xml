@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.valley.file.selector.capacitorpluginfileselector">
+
+    <application
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.valley.file.selector.MainActivity"
+            android:label="@string/chooser_document_app_name"
+            android:theme="@style/ChooserAppTheme.NoActionBar" />
+        <activity
+            android:name="com.valley.file.selector.media.preview.GPreviewActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.valley.file.selector.media.preview.GPVideoPlayerActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>
+  

@@ -1,0 +1,2 @@
+# capacitor-plugin-file-selector
+
